@@ -1,0 +1,39 @@
+{
+  "characters": [
+    {
+      "id": 2,
+      "name": "Vegeta",
+      "raza": "Saiyan"
+    },
+    {
+      "id": 3,
+      "name": "Piccolo",
+      "raza": "Namekian"
+    },
+    {
+      "id": 4,
+      "name": "Bulma",
+      "raza": "Human"
+    },
+    {
+      "id": 5,
+      "name": "Frieza",
+      "raza": "Frieza Race"
+    },
+    {
+      "id": 1703834789914,
+      "name": "Cell",
+      "raza": "Androide"
+    },
+    {
+      "id": 1703834823429,
+      "name": "Yayirobe",
+      "raza": "humano "
+    },
+    {
+      "id": 1703835915857,
+      "name": "Recoom",
+      "raza": "Alienigena"
+    }
+  ]
+}

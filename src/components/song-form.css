@@ -1,0 +1,14 @@
+.song-form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 20px;
+    width: fit-content;
+}
+
+input {
+    height: 1rem;
+    width: 10rem;
+}
