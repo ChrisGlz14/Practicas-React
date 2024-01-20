@@ -1,22 +1,17 @@
-import React, { useEffect, useState } from "react";
 import { CrudForm } from "./CrudForm";
 import { CrudTable } from "./CrudTable";
 import { Loader } from "./Loader";
 import { Mesagge } from "./Mesagge";
-import CrudContext, { CrudProvider } from "../context/CrudContext";
+import CrudContext from "../context/CrudContext";
+import { useContext } from "react";
 
 export const CrudApi = () => {
+  const { db, error, loading } = useContext(CrudContext);
 
-  const {createData}= useContext(CrudContext)
   return (
     <>
       <h2>Crud API</h2>
-      <CrudForm
-        createData={createData}
-        updateData={updateData}
-        dataToEdit={dataToEdit}
-        setDataToEdit={setDataToEdit}
-      />
+      <CrudForm />
       {loading && <Loader />}
       {error && (
         <Mesagge
@@ -25,13 +20,7 @@ export const CrudApi = () => {
         />
       )}
 
-      {db && (
-        <CrudTable
-          data={db}
-          setDataToEdit={setDataToEdit}
-          deleteData={deleteData}
-        />
-      )}  
+      {db && <CrudTable />}
     </>
   );
 };

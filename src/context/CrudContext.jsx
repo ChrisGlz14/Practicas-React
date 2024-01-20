@@ -98,9 +98,8 @@ const CrudProvider = ({ children }) => {
     updateData,
     deleteData,
   };
-  return <CrudContext value={data}>{children}</CrudContext>;
+  return <CrudContext.Provider value={data}>{children}</CrudContext.Provider>;
 };
-
 
 export {CrudProvider}
 export default CrudContext;

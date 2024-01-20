@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
+import CrudContext from "../context/CrudContext";
 
 const initialForm = {
   id : null,
@@ -6,8 +7,10 @@ const initialForm = {
   raza: "",
 }
 
-export const CrudForm =  ({ createData, updateData, dataToEdit, setDataToEdit }) => {
+export const CrudForm =  () => {
 
+
+  const {createData, updateData, dataToEdit, setDataToEdit} = useContext(CrudContext)
 
   const [form, setForm] = useState(initialForm);
 

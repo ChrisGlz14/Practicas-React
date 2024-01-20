@@ -1,6 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
+import CrudContext from "../context/CrudContext";
 
-export const CrudTableRow = ({ el, setDataToEdit, deleteData }) => {
+export const CrudTableRow = ({ el }) => {
+
+
+  const {setDataToEdit, deleteData} = useContext(CrudContext)
 
   let{name, raza, id} = el
 

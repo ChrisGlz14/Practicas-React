@@ -11,11 +11,6 @@
       "raza": "Namekian"
     },
     {
-      "id": 4,
-      "name": "Bulma",
-      "raza": "Human"
-    },
-    {
       "id": 5,
       "name": "Frieza",
       "raza": "Frieza Race"
@@ -26,13 +21,18 @@
       "raza": "Androide"
     },
     {
-      "id": 1703834823429,
-      "name": "Yayirobe",
-      "raza": "humano "
+      "id": 1705735065031,
+      "name": "Alien",
+      "raza": "Marciano"
     },
     {
-      "id": 1705704992299,
-      "name": "Christian Gonzalez ",
+      "id": 1705738242435,
+      "name": "Christian gonzalez",
+      "raza": "sayayin"
+    },
+    {
+      "id": 1705738522621,
+      "name": "Christian gonzalez",
       "raza": "sayayin"
     }
   ]
